@@ -1,4 +1,5 @@
 import Carousel from "./components/Carousel";
+import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       </header>
       <main>
         <Carousel />
+        <Modal />
       </main>
     </>
   );
