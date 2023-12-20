@@ -4,7 +4,7 @@ import newYorkCityImage from "../../assets/newYorkCityImage.jpg";
 import { Image, ImageWrapper } from "./styled";
 
 const Carousel = () => (
-  <div id="carouselIndicators" className="carousel slide">
+  <section id="carouselIndicators" className="carousel slide">
     <div className="carousel-indicators">
       <button
         type="button"
@@ -96,7 +96,7 @@ const Carousel = () => (
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="visually-hidden">Next</span>
     </button>
-  </div>
+  </section>
 );
 
 export default Carousel;

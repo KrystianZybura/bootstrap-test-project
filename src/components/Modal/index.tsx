@@ -1,5 +1,5 @@
 const Modal = () => (
-  <div className="modal fade" id="booking-modal" tabIndex={-1}>
+  <section className="modal fade" id="booking-modal" tabIndex={-1}>
     <div className="modal-dialog">
       <div className="modal-content">
         <div className="modal-header">
@@ -52,7 +52,7 @@ const Modal = () => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );
 
 export default Modal;
