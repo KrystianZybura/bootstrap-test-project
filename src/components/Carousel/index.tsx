@@ -1,7 +1,7 @@
 import nothernLightsImage from "../../assets/nothernLightsImage.jpg";
 import treesImage from "../../assets/treesImage.jpg";
 import newYorkCityImage from "../../assets/newYorkCityImage.jpg";
-import { Image, ImageWrapper } from "./styled";
+import { Caption, Image, ImageWrapper } from "./styled";
 
 const Carousel = () => (
   <section id="carouselIndicators" className="carousel slide">
@@ -27,10 +27,10 @@ const Carousel = () => (
         aria-label="Slide 3"
       ></button>
     </div>
-    <div className="carousel-inner">
+    <div className="carousel-inner ">
       <ImageWrapper className="carousel-item active">
         <Image src={nothernLightsImage} className="d-block w-100" alt="..." />
-        <div className="carousel-caption top-0 mt-5">
+        <Caption className="carousel-caption top-0">
           <p className="fs-3 text-uppercase">Discover the hidden world</p>
           <h1 className="display-1 fw-bolder text-capitalize">
             The Aurora Tours
@@ -43,11 +43,11 @@ const Carousel = () => (
           >
             Book a tour
           </button>
-        </div>
+        </Caption>
       </ImageWrapper>
       <ImageWrapper className="carousel-item">
         <Image src={treesImage} className="d-block w-100" alt="..." />
-        <div className="carousel-caption top-0 mt-5">
+        <Caption className="carousel-caption top-0">
           <p className="fs-3 text-uppercase">The season has arrived</p>
           <h1 className="display-1 fw-bolder text-capitalize">
             3 available tours
@@ -60,11 +60,11 @@ const Carousel = () => (
           >
             Book a tour
           </button>
-        </div>
+        </Caption>
       </ImageWrapper>
       <ImageWrapper className="carousel-item">
         <Image src={newYorkCityImage} className="d-block w-100" alt="..." />
-        <div className="carousel-caption top-0 mt-5">
+        <Caption className="carousel-caption top-0">
           <p className="fs-3 text-uppercase">Destination activities</p>
           <h1 className="display-1 fw-bolder text-capitalize">Visit a city</h1>
           <button
@@ -75,7 +75,7 @@ const Carousel = () => (
           >
             Book a tour
           </button>
-        </div>
+        </Caption>
       </ImageWrapper>
     </div>
     <button
