@@ -2,6 +2,7 @@ import Carousel from "./components/Carousel";
 import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
+import Packages from "./components/Packages";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Carousel />
         <Modal />
         <Overview />
+        <Packages />
       </main>
     </>
   );
