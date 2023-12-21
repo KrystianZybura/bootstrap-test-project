@@ -1,5 +1,5 @@
 const Navbar = () => (
-  <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav className="navbar navbar-expand-sm bg-dark navbar-dark p-3">
     <div className="container-lg">
       <a className="navbar-brand text-uppercase" href="#">
         AuroraTours
@@ -15,12 +15,12 @@ const Navbar = () => (
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#packages">
               Packages
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#FAQ">
               FAQ
             </a>
           </li>
