@@ -4,7 +4,7 @@ It's just a small design project made purely for practicing and learning how to 
 
 # Demo
 
-You can check Aurora Tours project here ----> [Aurora Tours](https://krystianzybura.github.io/bootstrap-test-project/)
+You can check my Aurora Tours project here ----> [Aurora Tours](https://krystianzybura.github.io/bootstrap-test-project/)
 
 ## React + TypeScript + Vite
 
