@@ -3,9 +3,9 @@ import yukon from "../../assets/yukon.jpg";
 import iceland from "../../assets/iceland.jpeg";
 
 const Packages = () => (
-  <section id="packages" className="mt-5">
-    <h2 className="text-center my-5 fs-1">Packages</h2>
-    <div className="row m-5 row-gap-5">
+  <section id="packages" className=" mt-sm-5">
+    <h2 className="text-center my-4 my-sm-5 fs-1">Packages</h2>
+    <div className="row mx-5 row-gap-5">
       <div className="col-lg">
         <div className="card">
           <img src={tromso} className="card-img-top" alt="..." />
