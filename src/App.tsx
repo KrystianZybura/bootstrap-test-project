@@ -1,4 +1,6 @@
 import Carousel from "./components/Carousel";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
@@ -15,7 +17,9 @@ function App() {
         <Modal />
         <Overview />
         <Packages />
+        <Faq />
       </main>
+      <Footer />
     </>
   );
 }
