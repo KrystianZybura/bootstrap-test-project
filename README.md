@@ -6,6 +6,12 @@ It's just a small design project made purely for practicing and learning how to 
 
 You can check my Aurora Tours project here ----> [Aurora Tours](https://krystianzybura.github.io/bootstrap-test-project/)
 
+# Source
+
+This project's design and origin comes from ByteGrad Bootstrap tutorial video. It may have some differences here and there, since I've done few things differently, but the original context is basically the same.
+
+Check it out here: https://www.youtube.com/watch?v=b9g4_8nAsdA&t=3489s
+
 ## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
