@@ -1,6 +1,6 @@
 # Aurora Tours - Bootstrap test project
 
-It's just a small design project made purely for practicing and learning how to use Bootstrap.
+It's just a small design project made mostly for practicing and learning how to use Bootstrap.
 
 # Demo
 
